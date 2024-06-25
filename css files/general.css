@@ -41,6 +41,8 @@ body {
   gap: 1.6rem;
   background-color: hsl(216, 50%, 16%);
   padding: 2.4rem;
+  border-radius: 1.2rem;
+  /* box-shadow: 0 2.4rem 0 1.6rem hsl(215, 32%, 27%); */
 }
 .nft-img {
   width: 100%;
@@ -52,18 +54,32 @@ body {
   font-weight: 400;
 }
 p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: hsl(215, 51%, 70%);
   letter-spacing: 0.5px;
-  font-weight: 400;
+  font-weight: 300;
 }
+.p-small {
+  font-size: 1.2rem;
+}
+.icon-div {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+/* .icon-div img {
+  height: 1.6rem;
+  width: 1.6rem;
+} */
 .text-div {
   display: flex;
   align-items: cenghter;
   justify-content: space-between;
 }
 .number {
-  font-weight: 700;
+  font-weight: 600;
+  /* purple-nft style */
+  color: hsl(178, 100%, 50%);
 }
 .dp-img {
   height: 3.2rem;
@@ -78,4 +94,8 @@ p {
   padding: 1.6rem 0;
   align-items: center;
   border-top: 1px solid hsla(0, 0%, 100%, 0.322);
+}
+/* purple-nft-style */
+span {
+  color: hsl(0, 0%, 100%);
 }
