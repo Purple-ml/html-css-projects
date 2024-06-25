@@ -14,3 +14,101 @@ Default: 1
 - SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-weight: 400;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  /* background-size: cover; */
+  background-color: hsla(225, 100%, 94%, 0.555);
+  background-repeat: no-repeat;
+  background-image: url(../images/pattern-background-desktop.svg);
+}
+.center-div {
+  max-width: 50rem;
+  margin: 10rem auto;
+  border-radius: 1.6rem;
+  overflow: hidden;
+  background-color: hsl(225, 100%, 98%);
+  text-align: center;
+}
+.main-img {
+  width: 100%;
+}
+.content {
+  padding: 3.2rem 4.8rem;
+}
+h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 2.4rem;
+}
+p {
+  font-size: 1.6rem;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.main-text {
+  margin-bottom: 2.4rem;
+}
+.prize-div {
+  display: flex;
+  gap: 1.6rem;
+}
+.prize-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem;
+  background-color: hsla(225, 100%, 94%, 0.479);
+  border-radius: 6px;
+  margin-bottom: 3.2rem;
+}
+.link:link,
+.link:visited {
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: hsl(245, 75%, 52%);
+  padding-bottom: -0.05px;
+  border-bottom: 1px solid hsl(245, 75%, 52%);
+}
+.link:hover,
+.link:active {
+  border-bottom: 1px solid transparent;
+}
+button {
+  display: block;
+  border: none;
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: hsl(225, 100%, 94%);
+  background-color: hsl(245, 75%, 52%);
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 4.8rem;
+  box-shadow: 0 2.4rem 1.6rem hsl(225, 100%, 94%);
+}
+.cancel:link,
+.camcel:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+.annual {
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
