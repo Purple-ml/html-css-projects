@@ -29,12 +29,26 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-nav ul {
+nav {
   display: flex;
   gap: 2rem;
+  align-items: center;
+  justify-content: center;
 }
-li {
+nav a {
   color: #777e90;
   font-weight: 600;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+}
+.nav-btn {
+  display: block;
+  color: #23262f;
+  background-color: #e6e8ec;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+}
+.btn {
+  /* color: #E6E8EC; */
+  /* border: none; */
+  /* padding: 150px, 30px; */
 }
